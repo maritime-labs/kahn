@@ -66,6 +66,8 @@ setup(
         ],
     },
     install_requires=[
+        "pyserial<4",
+        "pynmea2>1,<2",
         "click<9",
         "dataclasses;python_version<='3.6'",
         "importlib_metadata;python_version<='3.7'",

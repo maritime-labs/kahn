@@ -6,6 +6,7 @@ import sys
 
 import click
 
+from kahn.core import ForwardingEngine
 from kahn.util import setup_logging
 
 logger = logging.getLogger(__name__)
@@ -28,6 +29,8 @@ def cli(ctx, verbose, debug):
 @click.option("--target", type=str, required=True, help="Where to send telemetry data to")
 @click.pass_context
 def forward(ctx, source: str, target: str):
+    forwarder = ForwardingEngine(source=source, target=target)
+    forwarder.run()
     print("Ready.", file=sys.stderr)
 
 
