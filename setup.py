@@ -61,6 +61,9 @@ setup(
         "Topic :: Utilities",
     ],
     entry_points={
+        "console_scripts": [
+            "kahn = kahn.cli:cli",
+        ],
     },
     install_requires=[
         "click<9",
