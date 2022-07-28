@@ -45,6 +45,24 @@ Features
 - Submit NMEA sentences via UDP broadcast
 
 
+Hardware
+========
+
+Works best with plenty of UART ports. For example, supplied by the
+`Waveshare USB 3.2 Gen1 HUB HAT for Raspberry Pi`_.
+
+.. figure:: https://user-images.githubusercontent.com/453543/181486145-77b3b029-006a-4315-ae96-873f146fd993.png
+    :alt: Waveshare USB 3.2 Gen1 HUB HAT for Raspberry Pi
+    :target: `Waveshare USB 3.2 Gen1 HUB HAT for Raspberry Pi`_
+
+    4x USB 3.2 Gen1 port expander.
+
+.. figure:: https://user-images.githubusercontent.com/453543/181487634-0845ab99-c059-4d5a-a566-04b5cf145234.png
+    :alt: Example system configuration, prototype.
+    :target: https://user-images.githubusercontent.com/453543/181487762-65fd0502-a639-49c0-aa94-68b3a3082b51.png
+
+    Example system configuration, prototype.
+
 *****
 Setup
 *****
@@ -119,3 +137,4 @@ The project is licensed under the terms of the GNU AGPL license.
 .. _nmea_serial_driver: https://github.com/ros-drivers/nmea_navsat_driver/blob/master/src/libnmea_navsat_driver/nodes/nmea_serial_driver.py
 .. _nmea_socket_driver: https://github.com/ros-drivers/nmea_navsat_driver/blob/master/src/libnmea_navsat_driver/nodes/nmea_serial_driver.py
 .. _waterlinked-nmeaoutput.py: https://github.com/waterlinked/examples/blob/master/nmeaoutput.py
+.. _Waveshare USB 3.2 Gen1 HUB HAT for Raspberry Pi: https://www.waveshare.com/product/usb-3.2-gen1-hub-hat.htm
