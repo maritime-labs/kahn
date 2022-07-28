@@ -7,6 +7,7 @@ in progress
 ===========
 - Fix UDP message encoding
 - Improve error handling
+- Fix sending to UDP broadcast address
 
 
 2022-07-25 0.0.0

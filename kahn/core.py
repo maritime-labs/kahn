@@ -48,6 +48,8 @@ class ForwardingEngine:
     def setup(self):
         self.reader = serial.Serial(port=self.serial_port, baudrate=self.serial_baudrate, timeout=self.serial_timeout)
         self.writer = socket.socket(family=socket.AF_INET, type=socket.SOCK_DGRAM, proto=socket.IPPROTO_UDP)
+        self.writer.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEPORT, 1)
+        self.writer.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
 
     def run(self):
         self.running = True
