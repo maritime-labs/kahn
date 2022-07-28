@@ -33,7 +33,6 @@ setup(
     classifiers=[
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
@@ -69,7 +68,6 @@ setup(
         "pyserial<4",
         "pynmea2>1,<2",
         "click<9",
-        "dataclasses;python_version<='3.6'",
         "importlib_metadata;python_version<='3.7'",
     ],
     extras_require={
