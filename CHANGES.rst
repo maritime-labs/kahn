@@ -5,6 +5,10 @@ Kahn changelog
 
 in progress
 ===========
+
+
+2022-07-28 0.0.1
+================
 - Fix UDP message encoding
 - Improve error handling
 - Fix sending to UDP broadcast address

@@ -8,7 +8,7 @@ README = open(os.path.join(here, "README.rst")).read()
 
 setup(
     name="kahn",
-    version="0.0.0",
+    version="0.0.1",
     author="Andreas Motl",
     author_email="andreas.motl@panodata.org",
     url="https://github.com/maritime-labs/kahn",
