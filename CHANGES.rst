@@ -8,6 +8,7 @@ in progress
 - Fix UDP message encoding
 - Improve error handling
 - Fix sending to UDP broadcast address
+- Improve software tests, add CI/GHA
 
 
 2022-07-25 0.0.0

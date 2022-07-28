@@ -76,6 +76,7 @@ setup(
         "test": [
             "pytest<8",
             "pytest-cov<4",
+            "mock-serial<1",
         ],
     },
 )
