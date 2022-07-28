@@ -6,6 +6,7 @@ Kahn changelog
 in progress
 ===========
 - Fix UDP message encoding
+- Improve error handling
 
 
 2022-07-25 0.0.0
