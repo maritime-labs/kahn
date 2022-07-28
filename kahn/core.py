@@ -65,4 +65,7 @@ class ForwardingEngine:
                 continue
 
     def send_udp(self, ip, port, message):
-        self.writer.sendto(message.encode(), (ip, port))
+        if isinstance(message, str):
+            message = message.encode()
+        message += b"\n"
+        self.writer.sendto(message, (ip, port))
